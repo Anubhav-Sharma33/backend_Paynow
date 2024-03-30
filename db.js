@@ -1,6 +1,6 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
-const url = process.env.MonogURL;
+const url = "mongodb+srv://anubhvsharma33:anubhvsharma78144@cluster0.ayvbbiv.mongodb.net/Paynow?retryWrites=true&w=majority&appName=Cluster0";
 
 async function main() {
   console.log("inside main function");
